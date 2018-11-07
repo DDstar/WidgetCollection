@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
-
+apply plugin: 'maven'
 android {
     compileSdkVersion 28
 
@@ -22,7 +22,19 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    uploadArchives {
+        repositories.mavenDeployer {
+            //maven 本地文件地址
+            def mavenLib = file(getProperty('mavenPath'))
+            repository(url: "file://${mavenLib.absolutePath}")
+            pom.project {
+                version android.defaultConfig.versionName
+                groupId GROUDID
+                artifactId ARTIFACTID
+            }
+        }
 
+    }
 }
 
 dependencies {
