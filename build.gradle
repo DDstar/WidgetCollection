@@ -20,6 +20,9 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven{//添加以下配置
+            url 'https://raw.githubusercontent.com/DDStar/WidgetCollection/master'
+        }
     }
 }
 
