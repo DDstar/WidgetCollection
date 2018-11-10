@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffff4444</color>
+    <color name="colorPrimaryDark">#09bb07</color>
+    <color name="colorAccent">#ffff4444</color>
+    <color name="app_background">#f3f3f3</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ffff4444</color>
+    <color name="txt_orange">#c7b052</color>
+    <color name="color_999999">#999999</color>
+    <color name="text_color_080808">#080808</color>
+    <color name="text_color_757575">#757575</color>
+    <color name="text_color_4b4b4b">#4b4b4b</color>
+    <color name="text_color_191919">#191919</color>
+    <color name="text_color_ffc541">#ffc541</color>
+    <color name="text_color_666666">#666666</color>
+    <color name="text_color_7f7f7f">#7f7f7f</color>
+    <color name="picturesblack">#000000</color>
+    <color name="pictureswhite">#ffffff</color>
+    <color name="text_color_9f9f9f">#9f9f9f</color>
+    <color name="text_color_313131">#313131</color>
+    <color name="color_392e14">#392e14</color>
+    <color name="text_color_f9f9f9">#f9f9f9</color>
+    <color name="text_color_323232">#323232</color>
+    <color name="text_color_1caebf">#1CAEBF</color>
+    <color name="text_color_848689">#848689</color>
+    <color name="text_color_cacaca">#cacaca</color>
+    <color name="text_color_392e14">#392e14</color>
+    <color name="text_color_383838">#383838</color>
+    <color name="text_color_b8b8b8">#b8b8b8</color>
+    <color name="color_2e2d2d">#2e2d2d</color>
+    <color name="color_a8a8a8">#a8a8a8</color>
+    <color name="color_392E14">#FF392E14</color>
+    <color name="text_color_d6d6d6">#d6d6d6</color>
+    <color name="text_color_464d5d">#464d5d</color>
+</resources>
